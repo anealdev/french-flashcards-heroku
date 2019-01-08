@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'chantelli_antiquaregular';
+    src: url('Chantelli_Antiqua-webfont.eot');
+    src: url('Chantelli_Antiqua-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Chantelli_Antiqua-webfont.woff2') format('woff2'),
+         url('Chantelli_Antiqua-webfont.woff') format('woff'),
+         url('Chantelli_Antiqua-webfont.ttf') format('truetype'),
+         url('Chantelli_Antiqua-webfont.svg#chantelli_antiquaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aileronblack';
+    src: url('Aileron-Black-webfont.eot');
+    src: url('Aileron-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Aileron-Black-webfont.woff2') format('woff2'),
+         url('Aileron-Black-webfont.woff') format('woff'),
+         url('Aileron-Black-webfont.ttf') format('truetype'),
+         url('Aileron-Black-webfont.svg#aileronblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+:root {
+  --main-color: black;
+  --main-padding: 2%;
+}
+
+html, body {
+    min-height: 110%;
+    background: #ffffff url("img/tower.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'chantelli_antiquaregular';
+}
+
+#login-wrapper{
+  display: none;
+}
+
+#hello {
+  /*margin-right: 5%;*/
+}
+
+#intro-container{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+#intro-header{
+
+  font-weight: bold;
+}
+
+#intro-text{
+  font-weight: bold;
+}
+
+#completion {
+  display: none;
+  text-align: center;
+}
+
+.container-fluid {
+  color: var(--main-color);
+
+}
+
+#start-the-cards {
+  padding: var(--main-padding);
+}
+
+#accordion {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-group, #card-top, #card-bottom, #card-remove, #start-the-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+#card-prev, #card-next, #card-remove{
+  padding: var(--main-padding);
+}
+
+.btn-nav {
+  width: 100px;
+}
+
+.card {
+  width: 50%;
+  text-align: center;
+  border: 3px solid #ff0800;
+  font-family: 'aileronblack';
+}
+
+#card-top {
+  padding: 3%;
+  margin-right: 3%;
+}
+
+.form-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-field-container{
+  margin: 0 auto;
+  width: 50%;
+}
